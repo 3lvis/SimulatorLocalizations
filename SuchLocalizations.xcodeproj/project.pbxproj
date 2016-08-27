@@ -34,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14F0217B1D715DD200D5D9B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14F0217C1D715DD200D5D9B7 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = fr; path = fr.lproj/Main.storyboard; sourceTree = "<group>"; };
 		44EAAB4F18C86CE000F54C2E /* SuchLocalizations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuchLocalizations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44EAAB5218C86CE000F54C2E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		44EAAB5418C86CE000F54C2E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,8 +55,6 @@
 		44EAAB7918C86CE000F54C2E /* SuchLocalizationsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SuchLocalizationsTests-Info.plist"; sourceTree = "<group>"; };
 		44EAAB7B18C86CE000F54C2E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		44EAAB7D18C86CE000F54C2E /* SuchLocalizationsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuchLocalizationsTests.m; sourceTree = "<group>"; };
-		44EAAB8818C86D3E00F54C2E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
-		44EAAB8B18C8719500F54C2E /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -289,8 +289,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				44EAAB6518C86CE000F54C2E /* Base */,
-				44EAAB8818C86D3E00F54C2E /* en */,
-				44EAAB8B18C8719500F54C2E /* fr */,
+				14F0217B1D715DD200D5D9B7 /* en */,
+				14F0217C1D715DD200D5D9B7 /* fr */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
